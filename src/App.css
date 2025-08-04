@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --my-font-family : "sans-serif";
+    --my-font-size : "10px";
+    --my-line-height : 15px;
+    --my-font-weight : 400 ;
+    --my-letter-spacing: 0em;
+
+    --my-text-color: #FAFAFA;
+    --my-text-width: 9.975px;
+    --my-text-height: 15px;
+
+    --my-bg-color: #000000;
+    --my-button-width: 30px;
+    --my-button-height: 30px;
+    --my-border-radius: 3.5px;
+    --svg-height: 6px;
+    --svg-width: 6px;
+    --svg-color: #FAFAFA;
+}
