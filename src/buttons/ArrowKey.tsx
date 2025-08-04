@@ -1,15 +1,13 @@
 
 type alphabet = {
-  angle?: number,
+  
   className? : string
 }
 
-import viteLogo from '../assets/react.svg'
-import arrow from '../assets/arrowkey.svg'
 
 
 
-const Arrowkey = ({ angle, className }: alphabet) => {
+const Arrowkey = ({  className }: alphabet) => {
   return (
 
     <div className='rounded-[4px] p-[0.5px] cursor-pointer bg-white/[0.2] shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none'>

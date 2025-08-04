@@ -116,9 +116,9 @@ function App() {
               <Shift word='shift' className='absolute bottom-0 left-10 p-1' />
             </div>
             <div className='mb-[2px] flex w-full shrink-0 gap-[2px]'>
-              <BottomButton word='fn' className='justify-end pr-1' svg={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="h-[6px] w-[6px]"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path><path d="M3.6 9h16.8"></path><path d="M3.6 15h16.8"></path><path d="M11.5 3a17 17 0 0 0 0 18"></path><path d="M12.5 3a17 17 0 0 1 0 18"></path></svg>} />
+              <BottomButton word='fn' className='justify-end pr-1 mt-1' svg={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="h-[6px] w-[6px]"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0"></path><path d="M3.6 9h16.8"></path><path d="M3.6 15h16.8"></path><path d="M11.5 3a17 17 0 0 0 0 18"></path><path d="M12.5 3a17 17 0 0 1 0 18"></path></svg>} />
 
-              <BottomButton word='ctrl' className='justify-end pr-1' svg={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="h-[6px] w-[6px]"><path d="M6 15l6 -6l6 6"></path></svg>} />
+              <BottomButton word='ctrl' className='justify-end pr-1 mt-1' svg={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="h-[6px] w-[6px]"><path d="M6 15l6 -6l6 6"></path></svg>} />
 
               <BottomButton className="justify-end pr-1 mt-1" word='opn' svg={<svg fill="none" version="1.1" id="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" className="h-[6px] w-[6px]"><rect stroke="currentColor" stroke-width="2" x="18" y="5" width="10" height="2"></rect><polygon stroke="currentColor" stroke-width="2" points="10.6,5 4,5 4,7 9.4,7 18.4,27 28,27 28,25 19.6,25 "></polygon><rect id="_Transparent_Rectangle_" className="st0" width="32" height="32" stroke="none"></rect></svg>} />
 
